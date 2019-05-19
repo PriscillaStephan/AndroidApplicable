@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Eurisko</string>
+    <string name="no_connection">No Connection available, Please try again later</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="password">password</string>
+    <string name="keep_me_login">keep me login</string>
+    <string name="logout">logout</string>
+    <string name="gallery">Gallery</string>
+    <string name="listCategory">List category</string>
+    <string name="timerCategory">Timer category</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="id">ID:</string>
+    <string name="id_user">Id user:</string>
+    <string name="title">Title:</string>
+    <string name="completed">Completed</string>
+</resources>

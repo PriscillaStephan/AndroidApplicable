@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="prescilla.com.eurisko.registration.LoginActivity">
+
+    <LinearLayout
+        android:id="@+id/main_ly"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLength="14"
+            android:imeOptions="actionNext"
+            android:nextFocusDown="@id/password"
+            android:hint="@string/username"/>
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/password"
+            android:hint="@string/password"
+            android:layout_width="match_parent"
+            android:inputType="textPassword"
+            android:maxLength="12"
+            android:layout_height="wrap_content" />
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/login"/>
+    </LinearLayout>
+    <CheckBox
+        android:id="@+id/keep_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/keep_me_login"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/main_ly"/>
+</RelativeLayout>
